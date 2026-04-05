@@ -1,4 +1,4 @@
-<h2>LED Blink dengan Serial Monitor</h2>
+<h1>LED Blink dengan Serial Monitor</h1>
 
 Serial monitor dalam Arduino IDE adalah fitur bawaan berbentuk jendela pop-up yang memfasilitasi komunikasi dua arah antara papan Arduino dan komputer. Alat ini memungkinkan pengguna mengirim data dari Arduino ke PC (misalnya hasil sensor) dan mengirim perintah dari PC ke Arduino (misalnya tombol kontrol) secara real-time melalui kabel USB.
 
@@ -43,4 +43,26 @@ Serial monitor dalam Arduino IDE adalah fitur bawaan berbentuk jendela pop-up ya
     <td>Kabel Jumper</td>
   </tr>
 </table>
+</div>
+
+<h2>Implementasi Menggunakan Tinkercad</h2>
+
+Berikut adalah penerapan LED Blink dengan Serial Monitor dengan menggunakan Tinkercad. Setelah di compile dan di upload serial monitor akan menampilkan "Hello World" setiap LED menyala.
+
+https://github.com/user-attachments/assets/18792670-12ba-41f7-9803-f5fed2185dd4
+
+<h2></h2>
+
+<br>
+<div align="center">
+  <a href="https://github.com/uckypradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-github.png" width="3%" alt="Ultralytics GitHub"></a>
+  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.linkedin.com/uckypradestha/"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-linkedin.png" width="3%" alt="Ultralytics LinkedIn"></a>
+  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://twitter.com/uckypradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-twitter.png" width="3%" alt="Ultralytics Twitter"></a>
+  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.youtube.com/@ckypradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-youtube.png" width="3%" alt="Ultralytics YouTube"></a>
+  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
+  <a href="https://www.tiktok.com/@pradestha"><img src="https://github.com/uckypradestha/assets/raw/main/social/logo-social-tiktok.png" width="3%" alt="Ultralytics TikTok"></a>
+  <img src="https://github.com/uckypradestha/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
 </div>
