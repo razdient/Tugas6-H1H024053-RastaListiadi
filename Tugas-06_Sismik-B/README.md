@@ -1,5 +1,3 @@
-# Room Pengumpulan Tugas 5 Sistem Mikrokontroler A
-
 <h1>Scrolling Text Dengan I2C</h1>
 
 Spesifikasi Sistem:
@@ -7,7 +5,7 @@ Spesifikasi Sistem:
 - Kalimat 1 (baris [0]) bertulisan QUOTE, sifatnya statis
 - Kalimat 2 (baris [1]) bertulisan Quote nya yang sifatnya dinamis
 - Tulisan QUOTE tepat di tengah tampilan LCD
-- Tulisan Quote nya pada baris [1] langsung muncul dari sisi kanan
+- Tulisan Quote nya pada baris [1] langsung muncul dari sisi kanan (Cursor 15, 1)
 
 <h2></h2>
 

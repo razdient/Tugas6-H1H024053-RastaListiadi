@@ -1,5 +1,3 @@
-# Room Pengumpulan Tugas 5 Sistem Mikrokontroler B
-
 <h1>Scrolling Text Dengan I2C</h1>
 
 Spesifikasi Sistem:

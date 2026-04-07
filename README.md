@@ -2,24 +2,24 @@
 
 ![GITHUB BANNER](https://github.com/user-attachments/assets/1cf624dc-dc01-48fc-9ac3-7fa95902dde5)
 
-<p>Mikrokontroler seperti Arduino merupakan bagian penting dari berbagai proyek DIY, termasuk robotika. Pada pembahasan sebelumnya, kita telah melihat tata letak pin dan fungsi GPIO pada Arduino Uno. Pin GPIO dapat digunakan untuk membaca atau menulis data digital, yaitu tegangan tinggi atau rendah secara kontinu, atau bekerja dengan data analog berupa sinyal PWM yang bergantian antara tegangan tinggi dan rendah dalam rentang waktu yang sangat singkat. Kita juga telah melihat bahwa mikrokontroler dan single-board computer ini mendukung berbagai fungsi GPIO, termasuk protokol untuk berkomunikasi data dengan perangkat keras lainnya.</p>
+Mikrokontroler seperti Arduino merupakan bagian penting dari berbagai proyek DIY, termasuk robotika. Pada pembahasan sebelumnya, kita telah melihat tata letak pin dan fungsi GPIO pada Arduino Uno. Pin GPIO dapat digunakan untuk membaca atau menulis data digital, yaitu tegangan tinggi atau rendah secara kontinu, atau bekerja dengan data analog berupa sinyal PWM yang bergantian antara tegangan tinggi dan rendah dalam rentang waktu yang sangat singkat. Kita juga telah melihat bahwa mikrokontroler dan single-board computer ini mendukung berbagai fungsi GPIO, termasuk protokol untuk berkomunikasi data dengan perangkat keras lainnya.
 
-<p>Protokol komunikasi adalah seperangkat aturan yang menentukan bagaimana data ditransfer antar perangkat elektronik. Protokol ini mengatur bagaimana bit dikemas, dikirim, dan diinterpretasikan. Dalam Arduino, protokol ini memungkinkan mikrokontroler untuk berkomunikasi dengan sensor, modul, Arduino lain, bahkan komputer.</p>
+Protokol komunikasi adalah seperangkat aturan yang menentukan bagaimana data ditransfer antar perangkat elektronik. Protokol ini mengatur bagaimana bit dikemas, dikirim, dan diinterpretasikan. Dalam Arduino, protokol ini memungkinkan mikrokontroler untuk berkomunikasi dengan sensor, modul, Arduino lain, bahkan komputer.
 
-<p>Pada Arduino ada beberapa jenis protokol komunikasi yaitu Serial (UART), I2C, and SPI</p>
+Pada Arduino ada beberapa jenis protokol komunikasi yaitu Serial (UART), I2C, and SPI
 
 <h3><a href="1. Komunikasi Serial (UART)">⛓️ Komunikasi Serial (UART)</a></h3>
-<p>Komunikasi serial melibatkan pengiriman data bit demi bit melalui pin yang ditentukan pada Arduino.</p>
+Komunikasi serial melibatkan pengiriman data bit demi bit melalui pin yang ditentukan pada Arduino.
 
 <h3><a href="2. Protokol Inter-Integrated Circuit (I2C)">📟 Inter-Integrated Circuit (I2C)</a></h3>
-<p>I2C merupakan protokol komunikasi yang memungkinkan beberapa perangkat terhubung dalam satu jaringan menggunakan dua jalur komunikasi yaitu Serial Clock (SCL) dan Serial Data (SDA).</p>
+I2C merupakan protokol komunikasi yang memungkinkan beberapa perangkat terhubung dalam satu jaringan menggunakan dua jalur komunikasi yaitu Serial Clock (SCL) dan Serial Data (SDA).
 
 <h3><a href="3. Serial Peripheral Interface (SPI)">🎛️ Serial Peripheral Interface (SPI)</a></h3>
-<p>Serial Peripheral Interface (SPI) merupakan protokol komunikasi yang digunakan untuk menghubungkan perangkat digital dengan kecepatan tinggi </p>
+Serial Peripheral Interface (SPI) merupakan protokol komunikasi yang digunakan untuk menghubungkan perangkat digital dengan kecepatan tinggi.
 
 # Percobaan Pendahuluan
 
-<p>Menampilkan "Hello World" menggunakan Serial Monitor. Menampilkan "Hello World" di Serial Monitor Arduino dilakukan dengan menginisialisasi komunikasi serial menggunakan Serial.begin(9600) di setup() dan mencetak teks dengan Serial.println("Hello World") di loop() atau setup()</p>
+Menampilkan "Hello World" menggunakan Serial Monitor. Menampilkan "Hello World" di Serial Monitor Arduino dilakukan dengan menginisialisasi komunikasi serial menggunakan `Serial.begin(9600)` di `setup()` dan mencetak teks dengan `Serial.println("Hello World")` di `loop()` atau `setup()`.
 
 ```cpp
 void setup() {
@@ -33,9 +33,9 @@ void loop() {
 }
 ```
 
-<p>Berikutnya compile dan upload program ke dalam Arduino board. Perhatikan hasil yang terjadi, apakah sesuai dengan spesifikasi atau tidak.</p>
+Berikutnya compile dan upload program ke dalam Arduino board. Perhatikan hasil yang terjadi, apakah sesuai dengan spesifikasi atau tidak.
 
-https://github.com/user-attachments/assets/d489cc42-f489-404b-93de-cca64eafb324
+https://github.com/user-attachments/assets/e9060247-f35a-4681-83f7-c23eae0d51bb
 
 <h2></h2>
 
