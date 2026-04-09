@@ -105,4 +105,5 @@ delay(2);
 * kecepatan diatur 2 ms
 
 Dokumentasi
+
 ![Tugas](Tugas06.gif)
